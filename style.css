@@ -1,5 +1,34 @@
+@charset "UTF-8";
 /* 
 筑波大学 芸術祭 2021
 TSUKUBA ART & DESIGN FESTIVAL 2021
 by 長谷川泰斗
 */
+.x-scroll-container {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  overflow-x: scroll; }
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.top-logo {
+  width: 400px;
+  display: flex; }
+  .top-logo a {
+    width: 240px;
+    margin: 80px; }
+
+.social-link {
+  display: flex;
+  margin: 80px; }
+  .social-link a {
+    padding: 8px; }
+    .social-link a img {
+      width: 72px; }
+
+/*# sourceMappingURL=style.css.map */
