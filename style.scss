@@ -5,6 +5,10 @@ TSUKUBA ART & DESIGN FESTIVAL 2021
 by 長谷川泰斗
 */
 
+body {
+    font-family: 太ゴB101;
+}
+
 .x-scroll-container {
     display: flex;
     width: auto;
@@ -13,30 +17,38 @@ by 長谷川泰斗
 }
 
 .side-bar {
+    width: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 80px;
 }
 
 .top-logo {
-    width: 400px;
     display: flex;
 
     a {
-        width: 240px;
-        margin: 80px;
+        margin: 16px;
+        img {
+            width: 100%;
+        }
     }
 }
 
 .social-link {
     display: flex;
-    margin: 80px;
     
     a {
         padding: 8px;
+        
         img {
-            width: 72px;
+            width: 64px;
         }
     }
+}
+
+.top-visual {
+    height: 50vh;
+    overflow: hidden;
 }
