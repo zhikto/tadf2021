@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.level-nav {
+  display: flex;
+  flex-direction: column; }
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  line-height: 80px;
+  margin: 24px; }
+
+#f3 {
+  color: black; }
+
+#f2 {
+  background-color: #00FF00;
+  color: white; }
+
+#f1 {
+  color: black; }
+
+/*# sourceMappingURL=anime-test.css.map */
