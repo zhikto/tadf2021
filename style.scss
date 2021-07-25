@@ -87,6 +87,34 @@ body {
 }
 
 .top-visual {
-    height: 60vh;
+    height: 50vh;
     overflow: hidden;
+}
+
+.room-container {
+    display: flex;
+    height: 50vh;
+
+    .room {
+        width: 416px;
+        height: 100%;
+        margin: 16px 16px 0 0;
+        overflow: hidden;
+        background-color: $black;
+
+        h1 {
+            color: $white;
+            font-size: 96px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 120px;
+        }
+
+        h3 {
+            color: $white;
+            font-size: 32px;
+        }
+    }
 }

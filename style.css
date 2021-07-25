@@ -60,7 +60,26 @@ body {
       width: 48px; }
 
 .top-visual {
-  height: 60vh;
+  height: 50vh;
   overflow: hidden; }
+
+.room-container {
+  display: flex;
+  height: 50vh; }
+  .room-container .room {
+    width: 416px;
+    height: 100%;
+    margin: 16px 16px 0 0;
+    overflow: hidden;
+    background-color: #000000; }
+    .room-container .room h1 {
+      color: #FFFFFF;
+      font-size: 96px; }
+    .room-container .room h2 {
+      color: #FFFFFF;
+      font-size: 120px; }
+    .room-container .room h3 {
+      color: #FFFFFF;
+      font-size: 32px; }
 
 /*# sourceMappingURL=style.css.map */
