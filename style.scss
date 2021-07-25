@@ -89,32 +89,59 @@ body {
 .top-visual {
     height: 50vh;
     overflow: hidden;
+
+    img {
+        width: 100%;
+    }
 }
 
 .room-container {
     display: flex;
     height: 50vh;
+    padding-top: 16px;
+    overflow: hidden;
+    box-sizing: border-box;
 
     .room {
         width: 416px;
         height: 100%;
-        margin: 16px 16px 0 0;
+        margin-right: 16px;
         overflow: hidden;
         background-color: $black;
+        position: relative;
 
-        h1 {
-            color: $white;
-            font-size: 96px;
+        .room-title {
+            z-index: 100;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+            h1 {
+                color: $white;
+                font-size: 96px;
+            }
+    
+            h2 {
+                color: $white;
+                font-size: 120px;
+            }
+    
+            h3 {
+                color: $white;
+                font-size: 32px;
+            }
         }
 
-        h2 {
-            color: $white;
-            font-size: 120px;
+        img {
+            position: absolute;
+            filter: blur(4px);
+            transition: 0.2s;
+            transform: scale(1);
         }
 
-        h3 {
-            color: $white;
-            font-size: 32px;
+        img:hover {
+            transition: 0.2s;
+            transform: scale(1.1);
         }
     }
 }
