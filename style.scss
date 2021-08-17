@@ -14,25 +14,23 @@ $white: #FFFFFF;
 
 body {
     font-family: 太ゴB101;
-    background-color: $black;
+    background-color: $red;
 }
 
 .x-scroll-container {
     height: 100vh;
-    background-color: $white;
     display: flex;
     width: auto;
     overflow-x: scroll;
 }
 
 .side-bar {
-    width: 240px;
-    background-color: $white;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 64px;
+    padding: 40px;
 }
 
 .top-logo {
@@ -52,25 +50,30 @@ body {
     align-items: center;
 
     a {
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        margin: 24px;
-        background-color: $red;
-        font-size: 24px;
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        margin: 20px;
+        
+        font-size: 20px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
         text-decoration: none;
+        border: solid 2px $white;
         color: $white;
+        transition: 0.3s;
     }
 
-    img {
-        height: 16px;
+    a:hover {
+        transition: 0.3s;
+        color: $red;
+        background-color: $white;
     }
 
-    img:nth-of-type(1) {
-        transform: rotate(180deg);
+    a:nth-of-type(3) {
+        background-color: $white;
+        color: $red;
     }
 }
 
@@ -78,10 +81,10 @@ body {
     display: flex;
     
     a {
-        padding: 8px;
+        padding: 4px;
         
         img {
-            width: 48px;
+            width: 32px;
         }
     }
 }

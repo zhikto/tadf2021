@@ -6,23 +6,21 @@ by 長谷川泰斗
 */
 body {
   font-family: 太ゴB101;
-  background-color: #000000; }
+  background-color: #FF0000; }
 
 .x-scroll-container {
   height: 100vh;
-  background-color: #FFFFFF;
   display: flex;
   width: auto;
   overflow-x: scroll; }
 
 .side-bar {
-  width: 240px;
-  background-color: #FFFFFF;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 64px; }
+  padding: 40px; }
 
 .top-logo {
   display: flex; }
@@ -36,28 +34,32 @@ body {
   flex-direction: column;
   align-items: center; }
   .level-nav a {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    margin: 24px;
-    background-color: #FF0000;
-    font-size: 24px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    margin: 20px;
+    font-size: 20px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
     text-decoration: none;
-    color: #FFFFFF; }
-  .level-nav img {
-    height: 16px; }
-  .level-nav img:nth-of-type(1) {
-    transform: rotate(180deg); }
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    transition: 0.3s; }
+  .level-nav a:hover {
+    transition: 0.3s;
+    color: #FF0000;
+    background-color: #FFFFFF; }
+  .level-nav a:nth-of-type(3) {
+    background-color: #FFFFFF;
+    color: #FF0000; }
 
 .social-link {
   display: flex; }
   .social-link a {
-    padding: 8px; }
+    padding: 4px; }
     .social-link a img {
-      width: 48px; }
+      width: 32px; }
 
 .top-visual {
   height: 50vh;
