@@ -100,6 +100,7 @@ body {
         font-size: 32px; }
     .room-container .room img {
       position: absolute;
+      height: 100%;
       filter: blur(4px);
       transition: 0.2s;
       transform: scale(1); }
